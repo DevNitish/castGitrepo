@@ -1,7 +1,7 @@
 {
-  "name": "meanseed",
+  "name": "castgitrepo",
   "version": "1.0.0",
-  "description": "the seed project for MEAN stack development",
+  "description": "Repository for cast",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevNitish/MEANseedApp.git"
+    "url": "git+https://github.com/DevNitish/castGitrepo.git"
   },
   "author": "Nitish Kumar",
   "dependencies": {
@@ -24,7 +24,7 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DevNitish/MEANseedApp/issues"
+    "url": "https://github.com/DevNitish/castGitrepo/issues"
   },
-  "homepage": "https://github.com/DevNitish/MEANseedApp#readme"
+  "homepage": "https://github.com/DevNitish/castGitrepo#readme"
 }
