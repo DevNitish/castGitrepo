@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-4">
+        <div class="card" style="width: 20rem;">
+            <img class="card-img-top" ng-src="{{userDetails.items[0].avatar_url}}" style="height: 250px" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">{{userDetails.items[0].login}}</h4>
+
+                <a href="#" class="btn btn-primary">Follow</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+        <div class="card" ng-repeat="obj in userDetails.items" style="width: 15.5rem; margin:0.2pc">
+            <h3 class="card-header">{{obj.login}}</h3>
+            <div class="card-block">
+                <h4 class="card-title">Type of account:{{obj.type}}</h4>
+                <p class="card-text">Score : {{obj.score}}</p>
+               
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

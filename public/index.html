@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Seed App</title>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./includes/css/bootstrap.min.css">
+
+    <!--custom css file-->
+    <link rel="stylesheet" href="./includes/css/style.css">
+    <!--bootstrap css and js file-->
+    <script src="./includes/js/jquery-3.1.1.slim.min.js"></script>
+    <script src="./includes/js/tether.min.js"></script>
+    <script src="./includes/js/bootstrap.min.js"></script>
+    <script src="./includes/js/fe4a02cae5.js"></script>
+
+    <!--Angular js files-->
+    <script src="./includes/js//angular.min.js"></script>
+    <script src="./includes/js//angular-animate.js"></script>
+    <script src="./includes/js//angular-ui-router.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="mainCtrl" ng-cloak>
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-faded">
+        <a class="navbar-brand" ui-sref="home">
+          <img src="\includes\images\logo.PNG"  width="300" height="50" class="d-inline-block align-top" alt="">
+          <span style="color:greenyellow; font-size: 30px">TechScan</span>
+        </a>
+      </nav>
+    <div class="container" style="padding: 10px">
+        <div ui-view></div>
+    
+    </div>
+    </div>
+    <br><br>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted text-center">Coded with <i class="fa fa-heart"></i> by <a href="https://twitter.com/authornitish" target="_blank">Nitish Kumar</a></p>
+            </p>
+        </div>
+    </footer>
+    <!--all custom javascript files here-->
+    <script src="./app.public.js"></script>
+    <script src="./app.route.js"></script>
+</body>
+
+</html>
