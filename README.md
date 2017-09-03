@@ -5,6 +5,7 @@ Basic viewer for repository according to different languages. [Online Demo](http
 * Shows repositories according to Language selected
 * Shows data of user and his repository
 * Shows user profile picture.
+* Deployed working code on Heroku Server
 
 ### Prerequisites 
 Make sure you have installed following apps
